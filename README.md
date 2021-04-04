@@ -13,7 +13,7 @@ well as the different specific type of values that you would like in the passwor
 ### Running it on your machine
 
 ````bash
-git clone 
+git clone https://github.com/anishLearnsToCode/random-password-generator.git
 cd random-password-generator
 python main.py
 ````

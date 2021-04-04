@@ -1,7 +1,7 @@
-import enum
+from enum import Enum
 
 
-class CharacterType(enum.Enum):
+class CharacterType(Enum):
     DIGIT = 'digit',
     LOWERCASE_LETTER = 'lowercase-letter',
     UPPERCASE_LETTER = 'uppercase-letter',

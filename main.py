@@ -23,8 +23,10 @@ def get_random_password(*conditions: CharacterType, min_length=8):
 
 print(get_random_password(
     CharacterType.DIGIT,
-    CharacterType.DIGIT,
-    CharacterType.LOWERCASE_LETTER,
+    CharacterType.SPECIAL_CHARACTER,
+    CharacterType.SPECIAL_CHARACTER,
     CharacterType.UPPERCASE_LETTER,
+    CharacterType.LOWERCASE_LETTER,
+    CharacterType.LOWERCASE_LETTER,
     min_length=10
 ))
